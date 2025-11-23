@@ -102,11 +102,9 @@ export default function Settings() {
         animate={{ opacity: 1, y: 0 }}
         className="flex-1 p-10 overflow-y-auto"
       >
-        <h1 className="text-white text-4xl font-bold mb-102">⚙️
+        <h1 className="text-white text-4xl font-bold mb-12">⚙️
  Settings</h1>
-
-        
-        <div className="mb-6">
+      <div className="mb-6">
           <label className="text-white text-lg mb-2 block">Monthly Budget</label>
           <input
             type="number"
